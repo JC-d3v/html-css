@@ -1,0 +1,50 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+.parent {
+   border: 4px black dotted;
+   display: inline-block;
+}
+
+.box {
+   display: inline-block;
+   background-color: red;
+   width: 100px;
+   height: 100px;
+}
+
+#two {
+   background-color: green;
+   position: absolute;
+   left: 20px;
+}
+
+.box-title {
+   display: inline-block;
+   background-color: blue;
+   width: 200px;
+   height: 80px;
+   position: absolute;
+   left: 100px;
+   border-radius: 10px;
+   padding: 20px;
+   border: 8px yellow dotted;
+   text-align: center;
+}
+
+.box-txt {
+   display: inline-block;
+   background-color: grey;
+   width: 300px;
+   height: 300px;
+   position: relative;
+   top: 50px;
+   left: 50px;
+   border-radius: 10px;
+   padding: 50px;
+   border: 8px red double;
+   text-align: justify;
+}

@@ -1,0 +1,68 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+html  {
+   font-size: 62.5%;
+}
+
+.Logo-01 {
+   background-color: yellow;
+   width: 20vw;
+   min-width: 100px;
+   height: 100px;
+   display: inline-block;
+   padding: 10px;
+}
+
+.nave-01 {
+   position: absolute;
+   background-color: greenyellow;
+   display: inline-block;
+   padding: 10px;
+   width: 80vw;
+}
+.nave-01 li {
+   background-color: grey;
+   padding: 10px;
+   list-style: none;
+   display: inline-block;
+}
+
+.side-01 {
+   background-color: pink;
+   padding: 5px;
+   display: inline-block;
+}
+.side-01 div {
+   background-color: violet;
+   width: 170px;
+   min-width: 150;
+   height: 90px;
+   padding: 5px;
+   margin: 10px;
+   border-radius: 10px;
+}
+
+.side-02 {
+   background-color: grey;
+   padding: 20px;
+   border-radius: 10px;
+   margin-left: 200px;
+   position: absolute;
+   top: 110px;
+   width: 80vw;
+   height: 30vh;
+}
+
+.footer-01 {
+   background-color: violet;
+   padding: 10px;
+}
+
+.footer-01 p {
+   background-color: blueviolet;
+   display: inline-block;
+   padding: 5px;
+}
