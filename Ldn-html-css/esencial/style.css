@@ -1,0 +1,28 @@
+.parent {
+   border: 4px black dotted;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+.box {
+   display: inline-block;
+   background-color: red;
+   width: 100px;
+   height: 100px;
+   transition: all 1s;
+   /* align-self: center; */
+   text-align: center;
+   /* align-content: center; */
+   /* place-self: center center; */
+}
+#two:hover {
+   background-color: aquamarine;
+   transition: all 1s;
+   user-select: none;
+   cursor: pointer;
+}
+
+#three {
+   background-color: yellowgreen;
+   background: linear-gradient(to bottom, magenta 0%, blue 100%);
+}
