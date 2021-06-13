@@ -1,8 +1,4 @@
 *.mp4
 *.m4v
-settings.json
-*.jpg
-*.png
-*.jpeg
-
-
+*.zip
+*.rar
