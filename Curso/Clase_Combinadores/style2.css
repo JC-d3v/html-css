@@ -1,3 +1,5 @@
+/* TIP: div ~ p : combinator general sibling : hermano general */
+/* aplica rojo a las etiquetas P que estan a un mismo nivel de H2 */
 h2 ~ p {
    color: red;
 }

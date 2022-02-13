@@ -1,0 +1,5 @@
+/* TIP: div p : combinator descendant  : desendiente */
+/* aplica rojo a las etiquetas P que son desencientes de DIV */
+div p {
+   color: red;
+}

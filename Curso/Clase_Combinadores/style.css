@@ -1,3 +1,5 @@
+/* TIP: div + p : combinator adyasent sibling : hermano cercano */
+/* aplica rojo a las etiquetas P que estan despues de un H2 */
 h2 + p {
    color: red;
 }

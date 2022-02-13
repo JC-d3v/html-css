@@ -7,15 +7,18 @@
 main {
    width: 100vw;
    height: 100vh;
-   background-color: blueviolet;
+   background-color: purple;
 }
 
 section {
    width: 80%;
    min-width: 320px;
-   max-width: 520px;
+   max-width: 480px;
 
+   /* height: 500px; */
+   /* TIP: overflow : min-height evita el desboradmiento de nuestro texto*/
    min-height: 400px;
+   /* TIP: centrar con el margin*/
    margin: 0 auto;
    background-color: red;
 }

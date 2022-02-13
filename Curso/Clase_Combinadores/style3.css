@@ -1,3 +1,5 @@
-div p {
+/* TIP: div > p : combinator child  : hijo */
+/* aplica rojo a las etiquetas P que son hijos directods de DIV */
+div > p {
    color: red;
 }

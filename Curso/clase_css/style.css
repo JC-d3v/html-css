@@ -1,18 +1,18 @@
 /* directo */
+/* // TIP: CSS by tag  */
 p {
    color: darkcyan;
-   f ont-size: 25px;
+   font-size: 25px;
 }
 
-
- /* via class */
+/* // TIP: CSS via class */
 .parrafo_c1 {
-     color: darkgreen;
-     font-size: 24px;
+   color: darkgreen;
+   font-size: 24px;
 }
 
- /* via id */
- #parrafo_i1{
-      color: darkorange;
-      font-size: 18;
- }
+/* // TIP: CSS via id */
+#parrafo_i1 {
+   color: darkorange;
+   font-size: 18;
+}

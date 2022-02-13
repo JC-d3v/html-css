@@ -18,17 +18,17 @@
    background-color: red;
 }
 
-/* pseudo clase  */
+/* TIP: __:class : pseudo clase , definen un estilo de un estado de un elemento*/
 
 .main-nav__item a:hover {
    color: blue;
 }
 
 .main-nav__item a:active {
-   color: red;
+   color: green;
 }
 
-/* pseudo elemento  */
+/* TIP: __::element : pseudo elemento define un estilo de una parte especifica de un elemento*/
 .main-nav__item a::after {
    content: ' | ';
 }
