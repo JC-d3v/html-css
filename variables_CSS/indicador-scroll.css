@@ -1,0 +1,44 @@
+:root {
+  --col-01: #ff0000;
+  --col-02: #00ff00;
+  --col-03: #0000ff;
+  --font-size1: 2.5rem;
+  --font-size2: 2rem;
+  --font-size3: 1.8rem;
+
+  /* TIP: WOW indicador de scroll */
+  --width: 0;
+}
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  border: var(--col-01) solid 1px;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  /* padding: 1.5rem; */
+}
+
+body::before {
+  content: "";
+  display: block;
+  height: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: var(--col-03);
+  /* TIP: WOW indicador de scroll */
+  width: calc(var(--width) * 1vw);
+}
+
+h1 {
+  font-size: var(--font-size1);
+}
+
+p {
+  font-size: var(--font-size3);
+}

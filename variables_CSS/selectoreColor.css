@@ -1,0 +1,40 @@
+:root {
+  --red: 0;
+  --green: 0;
+  --blue: 0;
+}
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  /* border: var(--col-01) solid 1px; */
+}
+html {
+  font-size: 62.5%;
+}
+
+.selectorRGB {
+  display: grid;
+  min-height: 100vh;
+  align-content: center;
+  justify-content: center;
+  background: rgb(var(--red), var(--green), var(--blue));
+}
+
+label {
+  width: 55vw;
+  margin: 1rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  /* border: 1px, solid #000; */
+  padding: 0.5rem;
+  display: flex;
+  font-size: 1.5rem;
+  border: black 2px solid;
+}
+
+input {
+  margin-left: auto;
+  display: block;
+  width: 40vw;
+}

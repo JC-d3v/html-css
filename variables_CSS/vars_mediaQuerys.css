@@ -1,0 +1,44 @@
+:root {
+  --col-01: #ff0000;
+  --col-02: #00ff00;
+  --font-size1: 2rem;
+  --font-size2: 1.8rem;
+  --col-size: 100%;
+}
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  border: var(--col-01) solid 1px;
+}
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: var(--font-size1);
+  text-align: center;
+}
+
+p {
+  font-size: var(--font-size2);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  width: var(--col-size);
+  padding: 1rem;
+}
+
+@media screen and (min-width: 800px) {
+  h1 {
+    --font-size1: 5rem;
+  }
+  .col {
+    --col-size: 33.33%;
+  }
+}

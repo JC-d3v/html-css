@@ -1,0 +1,76 @@
+:root {
+  --col-01: #ff0000;
+  --col-02: #00ff00;
+  --col-03: #0000ff;
+  --font-size: 1rem;
+  --border-color: deeppink;
+  --border-color2: rgb(219, 17, 209);
+  --text-color: darkblue;
+}
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  /* border: var(--col-01) solid 1px; */
+}
+html {
+  font-size: 62.5%;
+  font-size: 1rem;
+}
+
+[class*="button"] {
+  display: inline-block;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border: none;
+  margin: 1rem;
+  color: #fff;
+  border-radius: 1rem;
+  background-color: var(--col-03);
+  font-size: var(--font-size);
+}
+
+.button--alert {
+  --col-03: tomato;
+}
+
+.button--cta {
+  --col-03: pink;
+}
+
+.button--small {
+  --font-size: 0.5rem;
+}
+
+.button--big {
+  --font-size: 1.5rem;
+}
+
+img {
+  max-width: 100%;
+}
+.card-block {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.card h2 {
+  margin: 0.5rem 0 0;
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+
+.card {
+  padding: 0.5rem;
+  background: fff;
+  border: 1px solid var(--border-color);
+}
+
+.card--att {
+  --border-color: var(--border-color2);
+}
+
+.card--att h2 {
+  --text-color: tomato;
+}
