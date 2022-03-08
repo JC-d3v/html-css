@@ -4,3 +4,5 @@ _redo/
 *.zip
 *.rar
 .imgs/
+
+node_modules/
