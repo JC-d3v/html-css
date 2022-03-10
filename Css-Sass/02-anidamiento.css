@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  border: #ff0000 solid 1px; }
+
+html {
+  font-size: 62.5%;
+  font-size: 1rem; }
+
+/* TIP: Anidamiento
+* Permite crear declaracione dentro de otras declaraciones que crean selectores
+*/
+/* BUG: NO se deberia crear malas practicas a partir de anidameinto*/
+ul {
+  margin: 0; }
+  ul li {
+    margin: 0; }
+    ul li div {
+      display: flex; }
+
+/* TIP: el anidamiento con mediaquerys compila por fuera*/
+ul {
+  margin: 0;
+  display: block; }
+  @media screen and (min-width: 640px) {
+    ul {
+      display: flex; } }
+
+/* TIP: :Hover ::before */
+.menu {
+  margin: 0; }
+  .menu:hover {
+    color: #ff0000; }
+  .menu::before {
+    color: #0000ff; }
+
+/* TIP: creacion de clases*/
+.menu {
+  display: block; }
+  .menu-item {
+    color: #00ff00; }

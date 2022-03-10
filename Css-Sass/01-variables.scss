@@ -1,0 +1,63 @@
+/* TIP: VARIABLES SASS $
+* Las variables de SASS se declaran con un > $ < delante del nombre de la variable.
+*/
+
+$col-01: #ff0000;
+$col-02: #00ff00;
+$col-03: #0000ff;
+$font-size1: 2rem;
+$font-size2: 3rem;
+$color: pink;
+$size: 20px;
+
+/* TIP: uso de variables Sass 
+* Las variables se invocan derectamente
+*/
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  border: $col-01 solid 1px;
+}
+
+html {
+  font-size: 62.5%;
+  font-size: $font-size1;
+}
+
+$color1: pink;
+
+/* TIP: scoope de variables
+* Las variables respetan el scoope de su declaracion.
+*/
+
+/* TIP: Sobreescritura de variables !important */
+h1 {
+  $col-01: pink !default;
+  background: yellow;
+  color: $col-01;
+}
+
+h2 {
+  color: $col-03;
+  font-size: $font-size1;
+}
+
+p {
+  color: $col-01;
+  font-size: $font-size1;
+}
+
+/* TIP: Interpolacion de variables
+* #{VAR-SASS}
+* incluso como selector de clase
+*/
+.#{$color} {
+  color: $col-01;
+}
+
+/* TIP: Calcualos con interpolacion de SASS
+*/
+p {
+  width: calc(100% - #{$size});
+}
