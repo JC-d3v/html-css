@@ -47,10 +47,66 @@ ul {
   }
 }
 
-/* TIP: creacion de clases*/
+/* TIP: creacion de clases por anidamiento*/
 .menu {
   display: block;
   &-item {
     color: $color-02;
   }
+}
+
+/* TIP: TIpos de Datos SASS */
+/* TIP: Type strings */
+$file1: "file.jpg";
+$file2: quote("file.jpg");
+$file3: unquote("file.jpg");
+html {
+  background: type-of($file1);
+  background: url($file1);
+  background: url($file2);
+  background: url($file3);
+}
+
+/* TIP: Type Numeros*/
+$num1: 5px;
+html {
+  background: type-of($num1);
+  margin: $num1 + 10;
+}
+
+/* TIP: Type Colores*/
+$col1: #f562ab;
+$col2: darken(#f562ab, 40);
+html {
+  background: type-of($col1);
+  color: $col1;
+  color: $col2;
+}
+
+/* TIP: Type boolean*/
+$bool: true;
+html {
+  background: type-of($bool);
+  color: $bool;
+}
+
+/* TIP: Type List*/
+$lista1: 1px solid red;
+$lista2: 1px, solid, red;
+html {
+  background: type-of($lista1);
+  background: type-of($lista2);
+  border: $lista1;
+  border: $lista2;
+}
+
+/* TIP: TYPE map (similares a objetos pero para CSS) */
+$mapa: (
+  color: red,
+  font: arial,
+  size: 20px,
+);
+html {
+  background: type-of($mapa);
+  color: map-get($mapa, color);
 }

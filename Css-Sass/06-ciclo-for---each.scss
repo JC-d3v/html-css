@@ -1,0 +1,27 @@
+/* TIP: ciclo FOR*/
+@for $i from 1 through 5 {
+  .column-#{$i *20} {
+    width: $i * 20%;
+  }
+}
+
+/* TIP: iteracion en listas*/
+$colors: red green blue;
+@each $variable in $colors {
+  .button-#{$variable} {
+    background: $variable;
+  }
+}
+
+/* TIP: iteracion en mapas1*/
+$mapa-colores: (
+  primary: red,
+  secondary: green,
+  tertiary: blue,
+);
+
+@each $varia, $value in $mapa-colores {
+  .button-#{$varia} {
+    background: $value;
+  }
+}

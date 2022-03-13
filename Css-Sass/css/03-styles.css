@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  border: #fff000 solid 2px; }
+
+.menu {
+  display: block;
+  color: #fff000; }
+
+html {
+  font-size: 62.5%; }

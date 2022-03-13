@@ -1,0 +1,14 @@
+@import "config";
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  border: $color-01 solid 2px;
+}
+
+@import "menu";
+
+html {
+  font-size: 62.5%;
+}

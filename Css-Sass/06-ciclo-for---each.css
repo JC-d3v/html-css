@@ -1,0 +1,35 @@
+/* TIP: ciclo FOR*/
+.column-20 {
+  width: 20%; }
+
+.column-40 {
+  width: 40%; }
+
+.column-60 {
+  width: 60%; }
+
+.column-80 {
+  width: 80%; }
+
+.column-100 {
+  width: 100%; }
+
+/* TIP: iteracion en listas*/
+.button-red {
+  background: red; }
+
+.button-green {
+  background: green; }
+
+.button-blue {
+  background: blue; }
+
+/* TIP: iteracion en mapas1*/
+.button-primary {
+  background: red; }
+
+.button-secondary {
+  background: green; }
+
+.button-tertiary {
+  background: blue; }

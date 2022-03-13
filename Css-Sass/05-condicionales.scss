@@ -1,0 +1,18 @@
+/* TIP: Condicionales*/
+$dev: false !default;
+$dev: faslse;
+@if $dev == true {
+  * {
+    outline: 1px solid red;
+  }
+} @else if (3==5) or (1==2) {
+  * {
+    outline: 1px solid green;
+  }
+} @else {
+  * {
+    color: yellowgreen;
+  }
+}
+
+/* TIP: importacion segun condiocional*/

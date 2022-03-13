@@ -35,8 +35,44 @@ ul {
   .menu::before {
     color: #0000ff; }
 
-/* TIP: creacion de clases*/
+/* TIP: creacion de clases por anidamiento*/
 .menu {
   display: block; }
   .menu-item {
     color: #00ff00; }
+
+/* TIP: TIpos de Datos SASS */
+/* TIP: Type strings */
+html {
+  background: string;
+  background: url("file.jpg");
+  background: url("file.jpg");
+  background: url(file.jpg); }
+
+/* TIP: Type Numeros*/
+html {
+  background: number;
+  margin: 15px; }
+
+/* TIP: Type Colores*/
+html {
+  background: color;
+  color: #f562ab;
+  color: #830845; }
+
+/* TIP: Type boolean*/
+html {
+  background: bool;
+  color: true; }
+
+/* TIP: Type List*/
+html {
+  background: list;
+  background: list;
+  border: 1px solid red;
+  border: 1px, solid, red; }
+
+/* TIP: TYPE map (similares a objetos pero para CSS) */
+html {
+  background: map;
+  color: red; }
