@@ -1,0 +1,50 @@
+/* TIP: map-get($map,$key)*/
+/* TIP: map-get($button-colors,primary)*/
+/* TIP: MIXINS fracmentos de codigo*/
+.button .button {
+  display: inline-block;
+  margin: 1rem;
+  color: yellow; }
+  .button .button a {
+    text-decoration: none; }
+
+.menu {
+  /* TIP: misin con parametros default */
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  /* TIP: misin con parametros sobrescritos al default */ }
+  .menu .menu-item {
+    display: block; }
+  .menu .menu-link {
+    text-decoration: none;
+    display: block; }
+
+.button {
+  display: inline-block;
+  margin: 1rem;
+  color: red; }
+  .button a {
+    text-decoration: none; }
+  .button.limegreen {
+    color: limegreen; }
+
+.menu-content2 {
+  color: red;
+  display: block; }
+  @media screen and (min-width: 800) {
+    .menu-content2 {
+      color: green;
+      padding-top: 10px; } }
+
+body {
+  background: red; }
+  @media screen and (min-width: 320px) {
+    body {
+      background: green; } }
+  @media screen and (min-width: 640px) {
+    body {
+      background: yellow; } }
+
+/*# sourceMappingURL=07-styles.minix.css.map */

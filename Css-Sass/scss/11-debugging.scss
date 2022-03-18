@@ -1,0 +1,44 @@
+/* TIP: Opciones de compilacion
+* node node-sass --watch scss --output css 
+* 
+*--output-style= expanded | compressed | nested | compact  
+*  expanded   ---exapndido - ayuda a la legibilidad
+*  nested     ---la opcion default
+*  compact    ---cada selector de manera compacta
+*  compressed ---minificado
+* 
+*--source-comments
+*  indica que linea de scss crea cada linea de css
+*
+*/
+
+/* TIP: source maps
+* node-sass scss -o css --source-map=true
+* Permite ver en consola los estilos del archivo SCSS 
+*/
+
+/* TIP: Debugging SASS
+* @debug @warn @error
+*/
+
+/* TIP: @debug
+* permite inspeccionar valores directamente a consola
+* @debug type-of($size)
+* @debug $size
+* @debug type-of($colors)
+*/
+
+/* TIP: @warn
+* @warn 'Hola mensajes'
+* permite enviar mensajes a traves de consola al usar un segmento de codigo'
+*/
+
+/* TIP: @error
+* @error 'el parametro #{$color} no es valido'
+*/
+body {
+  color: green;
+  p {
+    display: inline-block;
+  }
+}

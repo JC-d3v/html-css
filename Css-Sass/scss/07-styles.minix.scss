@@ -1,0 +1,34 @@
+@import "./config/variables";
+@import "./mixins/07-mixins";
+
+$buttons: true;
+
+.button {
+  @include botonera(yellow);
+}
+
+.menu {
+  /* TIP: misin con parametros default */
+  @include menu();
+  /* TIP: misin con parametros sobrescritos al default */
+  //@include menu(".item", ".link");
+}
+
+@include button(red, limegreen);
+
+.menu-content2 {
+  @include menu-contenido(1em) {
+    color: green;
+    padding-top: 10px;
+  }
+}
+
+body {
+  background: red;
+  @include mq(small) {
+    background: green;
+  }
+  @include mq(medium) {
+    background: yellow;
+  }
+}

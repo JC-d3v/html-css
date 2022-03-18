@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "10-styles-color.css",
+	"sources": [
+		"../scss/10-styles-color.scss"
+	],
+	"names": [],
+	"mappings": "AAAA;;;;;;;;;;;EAWE;AAEF;;;;EAIE;AAEF;;;;EAIE;AAEF;;;;;;;EAOE"
+}

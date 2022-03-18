@@ -1,2 +1,29 @@
+/* TIP:  Estructura proyecto SASS
+*--CSS 
+*--SCSS
+*-----COMPONENETS
+*..styles.scss
+*......._base.scss
+*......._buttons.scss
+*/
+/* TIP:  Estructura proyecto SASS
+*--CSS 
+*--SCSS
+*-----BASE (Elementos Base)
+*........botones.scss
+*........links.scss
+*........tipografia.scss
+*-----COMPONENTS (Elementos Base)
+*........grids.scss
+*........utilities.scss
+*-----LIBS (Librerias - Settings y variables)
+*........variables.scss
+*..styles.scss
+*......._base.scss
+*......._buttons.scss
+*........tablas.scss
+*/
 body {
   display: block; }
+
+/*# sourceMappingURL=styles.css.map */

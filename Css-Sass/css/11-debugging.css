@@ -1,0 +1,24 @@
+/* TIP: Opciones de compilacion
+* node node-sass --watch scss --output css 
+* 
+*--output-style= expanded | compressed | nested | compact  
+*  expanded   ---exapndido - ayuda a la legibilidad
+*  nested     ---la opcion default
+*  compact    ---cada selector de manera compacta
+*  compressed ---minificado
+* 
+*--source-comments
+*  indica que linea de scss crea cada linea de css
+*
+*/
+/* TIP: source maps
+* 
+* 
+* 
+*/
+body {
+  color: green; }
+  body p {
+    display: inline-block; }
+
+/*# sourceMappingURL=11-debugging.css.map */

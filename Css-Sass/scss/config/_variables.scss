@@ -1,0 +1,19 @@
+$buttons: false;
+$buttons-map-colors: (
+  promary: blue,
+  secondary: yellow,
+  alert: red,
+  cta: orange,
+);
+
+/* TIP: map-get($map,$key)*/
+/* TIP: map-get($button-colors,primary)*/
+
+$breakpoints: (
+  small: 320px,
+  medium: 640px,
+  large: 800px,
+  xlarge: 900px,
+);
+
+$path: "/img/";

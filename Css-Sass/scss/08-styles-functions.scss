@@ -1,0 +1,80 @@
+@import "./config/variables";
+/* TIP: Funcion Nros*/
+@function duplica($numero) {
+  @if type-of($numero) == number {
+    $value: $numero * 1.5rem;
+    @return $value;
+  }
+  @return null;
+}
+
+/* TIP: Funcion em*/
+@function em($px, $base: 16px) {
+  @if type-of($px) == number and unit($px) == "px" {
+    @return $px / $base * 1rem;
+  }
+  @return null;
+}
+
+/* TIP: Funcion img*/
+@function img($img) {
+  @return url($path + $img);
+}
+
+body {
+  font-size: em(10px);
+  background: img("foto.jpg");
+}
+
+/* TIP: Funciones Strings
+* quote($string)
+* unquote($string)
+*/
+/* TIP: str-index*/
+/* TIP: to-uppercase() */
+
+$width: 1px;
+$style: solid;
+$color: red;
+
+body {
+  border: unquote($width + " " + $style + " " + $color);
+  &::before {
+    content: quote($style);
+  }
+  index: str-index($style, "i");
+}
+
+/* TIP: Funciones Numeros
+* percentage() --> convierte a porcentaje
+* max() valor maximo 
+* min() minimo
+* floor() redondea abajo
+* ceil() redondea abajo
+* round() redondeo
+* random() 
+*/
+
+/* TIP: Funciones mapas y listas
+* nth($list, n)
+* index($list, $value)
+* join($list, $list2, $list3, separador:space|coma)
+* append($list, $value, $separador: space | coma)
+*
+* map-get($map, $key)
+* map-keys($map)
+* map-values($map)
+* map-has-key($map, $key)
+* map-merge($map1, $map2)
+*/
+
+/* TIP: funciones de isntrospeccion
+* inspect($mapa) miestra el contenido de un mapa
+* type-of($variable) muestra tipo de dato
+* unit($var) muestra la unidad de un numero
+* unitless($value) devuelve true si el valor tiene unidad
+* mixin-exists($mixins)
+* function-exists($fucntoin)
+* variable-exists($var)
+* global-variable-exists($var)
+**/

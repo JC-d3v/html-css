@@ -1,0 +1,72 @@
+/* TIP: MIXINS fracmentos de codigo*/
+@mixin botonera($color) {
+  @if $buttons {
+    .button {
+      display: inline-block;
+      margin: 1rem;
+      color: $color;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+@mixin menu($selector-item: ".menu-item", $selector-link: ".menu-link") {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+
+  #{$selector-item} {
+    display: block;
+  }
+
+  #{$selector-link} {
+    text-decoration: none;
+    display: block;
+  }
+}
+
+@mixin button($colors...) {
+  @if $buttons {
+    .button {
+      display: inline-block;
+      margin: 1rem;
+      color: nth($colors, 1);
+
+      a {
+        text-decoration: none;
+      }
+
+      @if length($colors) > 1 {
+        @for $i from 2 through length($colors) {
+          &.#{nth($colors,$i)} {
+            color: nth($colors, $i);
+          }
+        }
+      }
+    }
+  }
+}
+
+@mixin menu-contenido($font-size) {
+  color: red;
+  display: block;
+
+  @media screen and (min-width: 800) {
+    @content;
+  }
+}
+
+@mixin mq($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media screen and (min-width: map-get($breakpoints , $breakpoint)) {
+      @content;
+    }
+  } @else if type-of($breakpoint) == number and unit($breakpoint) == "px" {
+    @media screen and (min-width: $breakpoint) {
+      @content;
+    }
+  }
+}

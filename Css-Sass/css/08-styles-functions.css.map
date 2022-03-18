@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"file": "08-styles-functions.css",
+	"sources": [
+		"../scss/08-styles-functions.scss",
+		"../scss/config/_variables.scss"
+	],
+	"names": [],
+	"mappings": "ACQA,4BAA4B;AAC5B,yCAAyC;ADRzC,sBAAsB;AAStB,oBAAoB;AAQpB,qBAAqB;AAKrB,AAAA,IAAI,CAAC;EACH,SAAS,EAXC,QAAkB;EAY5B,UAAU,EALF,oBAAiB,GAM1B;;AAED;;;EAGE;AACF,mBAAmB;AACnB,yBAAyB;AAMzB,AAAA,IAAI,CAAC;EACH,MAAM,EAAE,aAA6C;EAIrD,KAAK,EAAE,CAAsB,GAC9B;EAND,AAEE,IAFE,AAED,QAAQ,CAAC;IACR,OAAO,EAAE,OAAa,GACvB;;AAIH;;;;;;;;EAQE;AAEF;;;;;;;;;;;EAWE;AAEF;;;;;;;;;GASG"
+}

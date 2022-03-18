@@ -1,0 +1,32 @@
+/* TIP: Color HSL
+* Hue Tono 0 a 360 grados
+* Saturation  intencidad de gris a color puro
+* Lighten luminosidad 0% negro 50%color puro a 100% blanco
+* hsl(200,100,50)
+*   0/360 -> Red
+*  60     -> yellow
+* 120     -> Green
+* 180     -> Cyan
+* 240     -> blue
+* 300     -> magenta
+*/
+/* TIP: COLOR SASS  - > RGB extrae la composicion de color
+* red($color)
+* green($color)
+* blue($color)
+*/
+/* TIP: Color Sass - HSL Extrae la composicion de color 
+* Hue($color)
+* saturation($color)
+* lightness($color) 
+*/
+/* TIP: Color Manipulation
+background: lighten($color: #000000, $amount: 0);
+background: darken($color: #000000, $amount: 0);
+
+background: saturate($color: #000000, $amount: 0);
+background: desaturate($color: #000000, $amount: 0);
+
+*/
+
+/*# sourceMappingURL=10-styles-color.css.map */

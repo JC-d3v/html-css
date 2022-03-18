@@ -1,0 +1,7 @@
+@import "./config/variables";
+@import "./config/09-function-log-shadow.scss";
+
+.text {
+  font-size: 6rem;
+  text-shadow: long-shadow(400, darken(red, 20));
+}

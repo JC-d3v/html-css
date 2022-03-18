@@ -1,0 +1,54 @@
+/* TIP: map-get($map,$key)*/
+/* TIP: map-get($button-colors,primary)*/
+/* TIP: Funcion Nros*/
+/* TIP: Funcion em*/
+/* TIP: Funcion img*/
+body {
+  font-size: 0.625rem;
+  background: url("/img/foto.jpg"); }
+
+/* TIP: Funciones Strings
+* quote($string)
+* unquote($string)
+*/
+/* TIP: str-index*/
+/* TIP: to-uppercase() */
+body {
+  border: 1px solid red;
+  index: 4; }
+  body::before {
+    content: "solid"; }
+
+/* TIP: Funciones Numeros
+* percentage() --> convierte a porcentaje
+* max() valor maximo 
+* min() minimo
+* floor() redondea abajo
+* ceil() redondea abajo
+* round() redondeo
+* random() 
+*/
+/* TIP: Funciones mapas y listas
+* nth($list, n)
+* index($list, $value)
+* join($list, $list2, $list3, separador:space|coma)
+* append($list, $value, $separador: space | coma)
+*
+* map-get($map, $key)
+* map-keys($map)
+* map-values($map)
+* map-has-key($map, $key)
+* map-merge($map1, $map2)
+*/
+/* TIP: funciones de isntrospeccion
+* inspect($mapa) miestra el contenido de un mapa
+* type-of($variable) muestra tipo de dato
+* unit($var) muestra la unidad de un numero
+* unitless($value) devuelve true si el valor tiene unidad
+* mixin-exists($mixins)
+* function-exists($fucntoin)
+* variable-exists($var)
+* global-variable-exists($var)
+**/
+
+/*# sourceMappingURL=08-styles-functions.css.map */
